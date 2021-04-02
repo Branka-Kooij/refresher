@@ -1,0 +1,56 @@
+.Friends {
+  display: flex;
+  flex-direction: row;
+  justify-conten: areound;
+}
+
+.Branka, .Niek {
+  width: 335px;
+  height: 220px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  background: white;
+  justify-content: space-between;
+  padding: 15px
+}
+
+.Branka, .Niek, img {
+  float: right;
+
+
+}
+
+.Branka, .Niek, h2, p {
+margine:0}
+h2{
+  display: inline;
+}
+
+.p1{
+  color: gray;
+}
+
+.button button:last-child{
+  background: white;
+  color:red;
+
+  border: red solid 2px;
+  width:142px;
+  height: 40px;
+}
+
+.button button:first-child{
+  background: white;
+  color:green;
+  border-top:green solid 2px;
+  border-bottom: green solid 2px;
+  border-left: green solid 2px;
+  border-right: 0;
+  width: 142px;
+  height: 40px;
+
+}
+.button{
+
+display:inline-flex;
+}
